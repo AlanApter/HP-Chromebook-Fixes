@@ -5,7 +5,9 @@ To use this, you'll have to copy each file from the place they are in the reposi
 
 After that, you'll have to execute the following commands:
 ```sudo chmod +x /etc/pm/sleep.d/05_sound
+
 ```sudo update-grub
+
 ```sudo update-grub
 
 The following files will fix suspend:
