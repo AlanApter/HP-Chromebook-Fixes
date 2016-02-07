@@ -10,7 +10,6 @@ sudo chmod +x /etc/pm/sleep.d/05_sound
 sudo update-grub
 
 sudo update-grub2
-
 ```
 
 The following files will fix suspend:
