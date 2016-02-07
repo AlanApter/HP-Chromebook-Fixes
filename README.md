@@ -4,11 +4,14 @@ Fixes for linux mint on the HP Chromebook 14 Falco
 To use this, you'll have to copy each file from the place they are in the repository to your install. E.g. copy /etc/rc.local in the repository to your /etc/rc.local.
 
 After that, you'll have to execute the following commands:
-```sudo chmod +x /etc/pm/sleep.d/05_sound
+```
+sudo chmod +x /etc/pm/sleep.d/05_sound
 
-```sudo update-grub
+sudo update-grub
 
-```sudo update-grub
+sudo update-grub2
+
+```
 
 The following files will fix suspend:
 * /etc/rc.local
